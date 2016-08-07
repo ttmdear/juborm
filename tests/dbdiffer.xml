@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <databases>
+        <database name="bookstore">
+            <adapter>mysql</adapter>
+            <host>localhost</host>
+            <dbname>bookstore</dbname>
+            <username>root</username>
+            <password></password>
+
+            <init>./bookstore/doc/bookstore.sql</init>
+        </database>
+        <database name="bookstore_clone">
+            <adapter>mysql</adapter>
+            <host>localhost</host>
+            <dbname>bookstore_clone</dbname>
+            <username>root</username>
+            <password></password>
+
+            <init>./bookstore/doc/bookstore_clone.sql</init>
+        </database>
+    </databases>
+</config>

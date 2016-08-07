@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configs>
+    <env name="production">
+        <models>
+            <model name="bookstore">
+                <dir>../Model/Bookstore</dir>
+                <namespace>Bookstore\Model\Bookstore</namespace>
+                <!--<mainEntity></mainEntity>-->
+                <!--<mainSelect></mainSelect>-->
+                <generateSelects>true</generateSelects>
+                <skipEntities></skipEntities>
+                <centralEntities>dictionary_values</centralEntities>
+            </model>
+        </models>
+        <sources>
+            <source name="bookstore">
+                <adapter>mysql</adapter>
+                <host>localhost</host>
+                <dbname>bookstore</dbname>
+                <username>root</username>
+                <password></password>
+            </source>
+            <source name="bookstore_clone">
+                <adapter>mysql</adapter>
+                <host>localhost</host>
+                <dbname>bookstore_clone</dbname>
+                <username>root</username>
+                <password></password>
+            </source>
+        </sources>
+    </env>
+</configs>
