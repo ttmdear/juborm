@@ -65,7 +65,8 @@
             <p>
                 Run the following script.
                 <pre class="highlight">
-composer.phar require ttmdear/juborm:@dev;
+composer init -n -s dev;
+composer require ttmdear/juborm:^1@dev;
 cp -r ./vendor/ttmdear/juborm/tests/bookstore/ bookstore;
 cd bookstore/src/public;
                 </pre>
@@ -144,8 +145,8 @@ cd bookstore/src/public;
                 All these files can be created automatically by using the
                 wizard; Of course you can create them manually.
                 <pre class="highlight">
-juborm generateModel -m bookstore -e production --config "../config/juborm.xml"
-juborm generateRelationsTree -m bookstore -e production --config "../config/juborm.xml"
+juborm generateModel -m bookstore -e production --config "../config/juborm.xml";
+juborm generateRelationsTree -m bookstore -e production --config "../config/juborm.xml";
                 </pre>
 
                 If all goes well , a directory Bookstore should be created
