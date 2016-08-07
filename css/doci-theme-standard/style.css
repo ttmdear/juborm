@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: sans-serif;
+}
+
+.doci-cleaner{
+    clear: both;
+}
+
+.doci-hidden{
+    display: none;
+}
+
+/** doci-header */
+.doci-headerFrame {
+    position: fixed;
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    width: 100%;
+    top: 0px;
+    border-bottom: 1px solid #C0C0C0;
+    color: green;
+}
+
+/** doci */
+.doci-frame{
+    padding: 10px;
+}
+
+.doci-input{
+    padding: 0px;
+    margin: 0px;
+}
+
+.doci-button{
+    padding: 0px;
+    margin: 0px;
+}
+
+/** panelFrame */
+.doci-panelFrame {
+    position: fixed;
+    width: 300px;
+}
+
+/** panelButtonsFrame **/
+.doci-panelButtonsFrame{
+    float: left;
+    height: 100%;
+    width: 30px;
+    border-left: 1px silver solid;
+    border-right: 1px silver solid;
+    background-color: #F3F3F3;
+}
+
+.doci-panelButtonsIco{
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.doci-panelButtonsIco:hover{
+    cursor: pointer;
+}
+
+.doci-panelButtonsLike{
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/like.png');
+
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/like.png');
+}
+
+.doci-panelButtonsLiked{
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/liked.png');
+}
+
+.doci-panelButtonsLikedList{
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/likedList.png');
+}
+
+.doci-panelButtonsContentTable{
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/contentTable.png');
+}
+
+.doci-panelButtonsSearch{
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/search.png');
+}
+
+.doci-panelButtonsMinimalize{
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/minimalize.png');
+    background-repeat: no-repeat;
+}
+
+.doci-panelButtonsRestore{
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/restore.png');
+    background-repeat: no-repeat;
+}
+
+/** panelContentFrame */
+.doci-panelContentFrame {
+    float: left;
+    height: 100%;
+    width: calc(100% - 32px - 12px);
+}
+
+.doci-panelContent{
+    overflow: auto;
+    height: calc(100% - 10px);
+    padding-top: 10px;
+    background-color: #F9F4F4;
+}
+
+.doci-panelContent li {
+    direction: none;
+    list-style: none;
+    height: 25px;
+    white-space: nowrap;
+
+}
+
+.doci-panelContent ul{
+    margin: 0;
+    padding-left: 0;
+    margin-left: 10px;
+}
+
+/** likedList */
+.doci-likedList{
+
+}
+
+.doci-likedListNode{
+
+}
+
+.doci-likedListName{
+    float: left;
+}
+
+.doci-likedListName:hover{
+    padding: 2px;
+    border: 1px silver solid;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+/** search */
+.doci-search{
+    padding: 4px;
+}
+
+.doci-searchForm{
+
+}
+
+.doci-searchFormKey{
+    width: 100%;
+    margin: 0px 0px 10px;
+
+}
+
+.doci-searchFormSearchButton{
+    width: 100%;
+
+}
+
+.doci-searchResultSet{
+    margin-top: 10px;
+}
+
+.doci-searchResult{
+    border-bottom: 1px dotted silver;
+    margin-bottom: 10px;
+}
+
+.doci-searchResultName{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.doci-searchResultSearchKey{
+    color: black;
+    font-weight: bold;
+}
+
+.doci-searchResult:hover{
+    padding: 2px;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.doci-searchResultPhrase{
+    color: silver;
+}
+
+/** contentTable */
+.doci-contentTable{
+
+}
+
+.doci-contentTableIco{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+}
+
+.doci-contentTableName{
+    display: inline-block;
+}
+
+.doci-contentTableName:hover{
+    margin-right: 5px;
+    padding: 2px;
+    border: 1px silver solid;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.doci-contentTableIcoRollDown{
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/rollDown.png');
+}
+
+.doci-contentTableIcoRollUp{
+    background-image: url('file:///home/ttmdear/workspace/jquery-doci/css/doci-theme-standard/icons/rollUp.png');
+}
+
+.doci-contentTableIcoParagraph{
+}
+
+.doci-contentTableNodeSelected{
+    font-weight: bold;
+
+}
+
+.doci-contentTableNodeSelected .doci-contentTableName{
+    margin-right: 5px;
+    padding: 2px;
+    border: 1px silver solid;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(243, 243, 243);
+}
+
+/** panelResizeFrame */
+.doci-panelResizeFrame{
+    width: 10px;
+    height: 100%;
+    background-color: white;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    float: left;
+}
+
+.doci-panelResizeFrame:hover{
+    background-color: silver;
+    cursor: pointer;
+}
+
+
+/** doci-breadcrumbs */
+.doci-breadcrumbsFrame{
+
+}
+
+.doci-breadcrumbs{
+}
+
+.doci-breadcrumbsSep{
+    margin-right: 5px;
+    color: silver;
+    float: left;
+    font-size: 21px;
+}
+
+.doci-breadcrumbsName{
+    margin-right: 5px;
+    float: left;
+    padding: 2px;
+    border: 1px silver solid;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(243, 243, 243);
+}
+
+.doci-breadcrumbsName:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/** doci-content */
+.doci-contentFrame{
+
+}
+
+.doci-content{
+}
+
+/** doci-foot */
+.doci-footFrame {
+    position: fixed;
+    background-color: rgb(249, 244, 244);
+    height: 20px;
+    width: 100%;
+    border-top: 1px solid silver;
+}
+
+/**/

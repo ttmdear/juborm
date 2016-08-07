@@ -1,0 +1,41 @@
+.highlight{
+    border: 1px silver solid;
+}
+
+.juborm-cleaner{
+    clear: both;
+
+}
+
+.juborm-title{
+    font-size: 100px;
+    color: #008000;
+}
+
+.juborm-foot{
+    border-top: 2px solid #008000;
+    padding: 10px;
+    background-color: #000;
+    color: silver;
+    box-shadow: 0px 1px 45px 0px black;
+}
+
+.juborm-distinction{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.juborm-info{
+    border: 1px solid green;
+    padding: 10px;
+    background-color: rgb(161, 224, 161);
+    border-radius: 10px;
+    color: black;
+    width: auto;
+    display: inline-block;
+}
+
+.juborm-image{
+
+}
